@@ -15,4 +15,4 @@ jobs:
           name: Brian
 
       - name: Show Output
-        run: echo "Greeting was: ${{ steps.hello.outputs.greeting }}"
+        run: echo "Greeting was ${{ steps.hello.outputs.greeting }}"
