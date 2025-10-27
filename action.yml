@@ -1,0 +1,17 @@
+name: "Hello World Action"
+description: "Greets the user using @actions/core"
+author: "Your Name"
+
+inputs:
+  name:
+    description: "Name to greet"
+    required: false
+    default: "World"
+
+outputs:
+  greeting:
+    description: "The greeting message"
+
+runs:
+  using: "node20"
+  main: "dist/index.js"
